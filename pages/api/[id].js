@@ -16,8 +16,8 @@ const mermaidApi = async(req, res) => {
 
 
   // IF YOU ARE USING INSTA REVEAL MODEL, USE THIS TO GET HOW MANY NFTS ARE MINTED
-  // const totalSupply = await mermaidContract.methods.totalSupply().call();
-  // console.log(totalSupply)
+   const totalSupply = await mermaidContract.methods.totalSupply().call();
+   console.log(totalSupply)
   
 
 
@@ -26,9 +26,9 @@ const mermaidApi = async(req, res) => {
 
 
   // IF YOU ARE USING INSTA REVEAL MODEL, UNCOMMENT THIS AND COMMENT THE TWO LINES BELOW
-  // if(parseInt(query) < totalSupply) {
-    const totalBananas = 8888;
-    if(parseInt(query) < totalBananas) {
+   if(parseInt(query) < totalSupply) {
+  //  const totalBananas = 8888;
+  //  if(parseInt(query) < totalBananas) {
 
 
 
