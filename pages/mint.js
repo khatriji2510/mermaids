@@ -33,8 +33,9 @@ export default function Mint() {
   async function signIn() {
     if (typeof window.web3 !== 'undefined') {
       // Use existing gateway
-      window.web3 = new Web3(window.ethereum);
-     
+      //window.web3 = new Web3(window.ethereum);
+     window.web3 = new Web3(web3.currentprovider);
+
     } else {
       alert("No Ethereum interface injected into browser. Read-only access");
     }
