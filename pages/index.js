@@ -8,27 +8,13 @@ export default function Home() {
         <title>The Seaqueens</title>
         <link rel="icon" href="/images/favicon.jpg" />
 
-        <meta property="og:title" content="Boring Bananas Co." key="ogtitle" />
-        <meta property="og:description" content="Here at Boring Bananas company, we specialise in the world's finest digital bananas. We've put together a team spanning 3 continents, to bring you some of the most ‍NUTRITIOUS and DELICIOUS
-bananas out known to man." key="ogdesc" />
-        <meta property="og:type" content="website" key="ogtype" />
-        <meta property="og:url" content="https://boringbananas.co/" key="ogurl"/>
-        <meta property="og:image" content="https://boringbananas.co/images/Hola.gif" key="ogimage"/>
-        <meta property="og:site_name" content="https://boringbananas.co/" key="ogsitename" />
-
-        <meta name="twitter:card" content="summary_large_image" key="twcard"/>
-        <meta property="twitter:domain" content="boringbananas.co" key="twdomain" />
-        <meta property="twitter:url" content="https://boringbananas.co/" key="twurl" />
-        <meta name="twitter:title" content="Boring Bananas Co." key="twtitle" />
-        <meta name="twitter:description" content="Here at boring Bananas company, we specialise in the world's finest digital bananas. We've put together a team spanning 3 continents, to bring you some of the most ‍NUTRITIOUS and DELICIOUS
-bananas out known to man." key="twdesc" />
-        <meta name="twitter:image" content="https://boringbananas.co/images/Hola.gif" key="twimage" />
+        
       </Head>
 
 
       <div >
           <div className="flex items-center justify-between w-full border-b-2	pb-6">
-            <a href="/" className=""><img src="images/Hola.gif" width="108" alt="" className="logo-image" /></a>
+            <a href="/" className=""><img src="images/logo.png" width="108" alt="" className="logo-image" /></a>
             <nav className="flex flex-wrap flex-row justify-around Poppitandfinchsans">
               <a href="#about" className="text-4xl text-black hover:text-black m-6">About</a>
               <a href="/mint" className="text-4xl text-black hover:text-black m-6">MINT!</a>
@@ -42,7 +28,7 @@ bananas out known to man." key="twdesc" />
           </div>
           
         </div>
-        <img className="lg:w-3/2 w-2/4" src="images/Hola.png" width="500px" />
+        <img className="lg:w-3/2 w-1/4 border-8 border-black " src="images/queen1.gif" width="500px" />
         <div className="md:w-2/3 w-4/5 " id="about">
        
         
@@ -50,8 +36,8 @@ bananas out known to man." key="twdesc" />
             <div className="flex flex-wrap lg:flex-nowrap justify-around items-center">
                   <div className="lg:w-3/4 w-3/4">
                 
-                    <h1 className="text-7xl Poppitandfinchsans text- black">NAMASTE EVERYONE, meet <br/><span className="text-blau">Sea Queens</span></h1>
-                    <p className="text-2xl text-black my-6  montserrat">Let us tell you about <span className="text-5xl Poppitandfinch ">SEA</span> <span className="text-blau text-5xl Poppitandfinchsans">Queens</span> 9999, we introduce Queens of <span className="text-span-2 font-bold">OPEN SEA rulling the ocean of crypto.</span>.<br />‍<br />Queens have been generated from countless number of traits and carrying <br/>‍<span className="text-blau text-5xl Poppitandfinchsans">LIMITLESS </span><span className="text-5xl Poppitandfinch ">POTENTIAL</span><span className="text-blau text-5xl Poppitandfinchsans"> on their crowns</span>.
+                    <h1 className="text-7xl Poppitandfinchsans text- black">NAMASTE EVERYONE, meet <br/><span className="text-blau">The Sea Queens</span></h1>
+                    <p className="text-2xl text-black my-6  montserrat">Let us introduce you to <span className="text-5xl Poppitandfinch ">SEA</span> <span className="text-blau text-5xl Poppitandfinchsans">Queens</span> 9999, The Queens of <span className="text-span-2 font-bold">OPEN SEA rulling the ocean of crypto.</span><br />‍<br />The Queens have been generated from the countless number of traits and carrying <br/>‍<span className="text-blau text-5xl Poppitandfinchsans">LIMITLESS </span><span className="text-5xl Poppitandfinch ">POTENTIAL</span><span className="text-blau text-5xl Poppitandfinchsans"> on their crowns</span>.
                     </p>
                     <p className="text-2xl text-black my-6  montserrat">
                     <strong>LAUNCH DATE:</strong> --- <br />‍
@@ -77,27 +63,20 @@ bananas out known to man." key="twdesc" />
                   <div className="border-4 border-blue-300 p-4"><img src="images/Traits4.gif" alt="" width="400px" className="feature-image"/></div>
                   <div className="flex flex-col justify-between mx-6 sm:w-1/2 w-4/5 py-6 ">
                     <h2 className="text-blau Poppitandfinchsans text-6xl text-center">The Sea Queens</h2>
-                    <p className="text-xl text-black my-6  montserrat"> Queens are hard to get and are very attractive. <span className="font-bold"> But Sea Queens </span>  have all the traits you need and you can get them easily through our website each  <span className="font-bold"> QUEEN IS UNIQUE </span> and have a different set of  <span className="font-bold"> Traits. </span>    
+                    <p className="text-xl text-black my-6  montserrat">The Queens are so attractive and fascinating. Although they are very hard to claim <span className="font-bold"> but Sea Queens </span>  have all the traits you need and you can get them easily through our website, each  <span className="font-bold"> QUEEN IS UNIQUE </span> and have a different set of  <span className="font-bold"> Traits. </span>    
                     </p>
-                    <p className="text-xl text-black my-6  montserrat"> These traits varieties include different expressions.<span className="font-bold"> 500+ Hairstyles, many different accessories, </span> many different skin colours, <span className="font-bold"> 50+ Fins</span> and many more varieties.
+                    <p className="text-xl text-black my-6  montserrat"> These varieties include different expressions of<span className="font-bold"> 500+ Hairstyles, various types of accessories, </span> skin colours, <span className="font-bold"> 50+ Fins</span> and many more.
                     </p>
                   </div>
                 </div>
     
 
               <div id="roadmap" className="">
-                <img src="/images/Roadmap.jpg"/>      
+                    
               <h2 className="text-6xl text-center Poppitandfinchsans text-blau my-4">ROADMAP</h2>
-              <ul className="">
-                <li className="text-xl text-black my-6  montserrat"><span className="font-bold"> LAUNCH- </span> Prior announcement for discord members. </li>
-                <li className="text-xl text-black my-6  montserrat"><span className="font-bold"> LAUNCH GIVEAWAY- </span> Seaqueens will reach their winners.</li>
-                <li className="text-xl text-black my-6  montserrat"><span className="font-bold"> RARITY IMPLEMENTATION </span> on rarity.tool/spinner. </li>
-                <li className="text-xl text-black my-6  montserrat"><span className="font-bold"> 100% SOLD - </span> We will bid on underrated artists of 0.9999 eth which will be choosen by the TSQs holders. </li>
-                <li className="text-xl text-black my-6  montserrat"> We will <span className="font-bold underline">Sponsor GAS FEES </span> for upcoming artists who are unable to pay their gas fees to start their career. </li>
-                <li className="text-xl text-black my-6  montserrat"> We will place bids of <span className="font-bold underline">0.3 eth</span> on artists, which will also be choosen by the TSQs holders.  </li>
-                <li className="text-xl text-black my-6  montserrat"><span className="font-bold"> ANNOUNCEMENT </span> Date will be announced of our 2nd generation. </li>
-                <li className="text-xl text-black my-6  montserrat"><span className="font-bold"> AIRDROP </span> 999 pieces of our 2nd generation TSQs will airdroped to the wallets of TSQs holders. </li>
-              </ul>
+              <p className="text-3xl text-black my-6  montserrat"><span className="font-bold"> Our main aim is to support underrated artists in NFT community.</span>
+              </p>
+              <img src="/images/Roadmap.jpg"/>  
               <p className="text-xl text-black my-6  montserrat"><span className="font-bold underline"> TO BE CONTINUED</span> ...........
               </p>
 
@@ -108,23 +87,44 @@ bananas out known to man." key="twdesc" />
               <div id="team" className="mx-12 my-16 ">
                 <h2 className="text-7xl text-center Poppitandfinchsans text-blau my-4">TEAM</h2>
                 <div className="flex justify-around flex-wrap">
-                  <div className="flex flex-col  my-6" style={{width:"360px"}}>
+                  <div className="bg-green-200 p-6 h-full border-4 border-black p-4 rounded-lg overflow-hidden" style={{width:"360px"}}>
                     <div className="cards-image-mask"><img src="/images/vipin.jpg" width="360px" alt="" className="cards-image" /></div>
                     <h3 className="my-4 text-center text-5xl text-center Poppitandfinchsans text-blau">Vipin</h3>
-                    <a href="https://twitter.com/VipinKhatri2510" className="text-center text-4xl text-center Poppitandfinchsans underline text-black"> (@VipinKhatri2510)</a>
+                    <a href="https://twitter.com/VipinKhatri2510" className="text-center text-4xl text-center Poppitandfinchsans underline text-black">(@VipinKhatri2510)</a>
+                    <h4 className="text-xl text-black my-6  montserrat"><span className="font-bold">Founder/Dev</span></h4>
+                    <li className="text-xl text-black my-6  montserrat">INDIAN NFT Artist </li>
+                     <li className="text-xl text-black my-6  montserrat">Engineering student of Artificial Intelligence. </li>
+                     
                   </div>
-                  <div className="flex flex-col  my-6" style={{width:"360px"}}>
+                  <div className="bg-green-200 p-6 h-full border-4 border-black p-4 rounded-lg overflow-hidden" style={{width:"360px"}}>
                     <div className="cards-image-mask"><img src="/images/preet.jpg" width="360px" alt="" className="cards-image" /></div>
                     <h3 className="my-4 text-center text-5xl text-center Poppitandfinchsans text-blau">Preet</h3>
-                    <a href="https://twitter.com/pt_preet" className="text-center text-4xl text-center Poppitandfinchsans underline text-black"> (@pt_preet)</a>                </div>
-                  <div className="flex flex-col  my-6" style={{width:"360px"}}>
+                    <a href="https://twitter.com/pt_preet" className="text-center text-4xl text-center Poppitandfinchsans underline text-black"> (@pt_preet)</a>                
+                    <h4 className="text-xl text-black my-6  montserrat"><span className="font-bold">Artist/Creator</span></h4>
+                    <li className="text-xl text-black my-6  montserrat">INDIAN NFT Artist  </li>
+                     <li className="text-xl text-black my-6  montserrat">Freelance Animator And 2D/3D illustrator by profession. </li>
+                     
+                    
+                    </div>
+                  
+                  <div className="bg-green-200 p-6 h-full border-4 border-black p-4 rounded-lg overflow-hidden" style={{width:"360px"}}>
                     <div className="cards-image-mask"><img src="/images/rahul.jpg" width="360px" alt="" className="cards-image" /></div>
                     <h3 className="my-4 text-center text-5xl text-center Poppitandfinchsans text-blau">Rahul</h3>
-                    <a href="https://twitter.com/pareekrahul073" className="text-center text-4xl text-center Poppitandfinchsans underline text-black"> (@pareekrahul073)</a>                </div>
-                  <div className="flex flex-col  my-6" style={{width:"360px"}}>
+                    <a href="https://twitter.com/pareekrahul073" className="text-center text-4xl text-center Poppitandfinchsans underline text-black"> (@pareekrahul073)</a>
+                    <h4 className="text-xl text-black my-6  montserrat"><span className="font-bold">Web Developer</span></h4>
+                    <li className="text-xl text-black my-6  montserrat">Hackathon Runnerup </li>
+                     <li className="text-xl text-black my-6  montserrat">Engineering student of Artificial Intelligence and Data Science. </li>
+                    
+                  </div>
+                  <div className="bg-green-200 p-6 h-full border-4 border-black p-4 rounded-lg overflow-hidden" style={{width:"360px"}}>
                     <div className="cards-image-mask"><img src="/images/mohak.jpg" width="360px" alt="" className="cards-image" /></div>
                     <h3 className="my-4 text-center text-5xl text-center Poppitandfinchsans text-blau">Mohak</h3>
-                    <a href="https://twitter.com/MohakBardwa2" className="text-center text-4xl text-center Poppitandfinchsans underline text-black"> (@MohakBardwa2)</a>                </div>
+                    <a href="https://twitter.com/MohakBardwa2" className="text-center text-4xl text-center Poppitandfinchsans underline text-black"> (@MohakBardwa2)</a>                
+                    <h4 className="text-xl text-black my-6  montserrat"><span className="font-bold">Discord Mod/Community</span></h4>
+                    <li className="text-xl text-black my-6  montserrat">Managing 100k discord servers </li>
+                     <li className="text-xl text-black my-6  montserrat">Engineering student of Artificial Intelligence. </li>
+                    
+                    </div>
                 
                 </div>
        
