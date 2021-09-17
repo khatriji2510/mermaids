@@ -73,7 +73,7 @@ export default function Home() {
               <div id="roadmap" className="">
                     
               <h2 className="text-6xl text-center Poppitandfinchsans text-blau my-4">ROADMAP</h2>
-              <p className="text-3xl text-black my-6  montserrat"><span className="font-bold"> Our main aim is to support underrated artists in NFT community.</span>
+              <p className="text-3xl text-black my-6  montserrat"><span className="font-bold"> Our main aim is to support artists in NFT community.</span>
               </p>
               <img src="/images/roadmap.jpg"/>  
               <p className="text-xl text-black my-6  montserrat"><span className="font-bold underline"> TO BE CONTINUED</span> ...........
