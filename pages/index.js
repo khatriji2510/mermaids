@@ -28,7 +28,7 @@ export default function Home() {
           </div>
           
         </div>
-        <img className="lg:w-3/2 w-1/4 border-8 border-black " src="images/queen1.gif" width="500px" />
+        <img className="lg:w-3/2 w-1/4 border-8 border-black " src="images/queen1.GIF" width="500px" />
         <div className="md:w-2/3 w-4/5 " id="about">
        
         
@@ -76,7 +76,7 @@ export default function Home() {
               <h2 className="text-6xl text-center Poppitandfinchsans text-blau my-4">ROADMAP</h2>
               <p className="text-3xl text-black my-6  montserrat"><span className="font-bold"> Our main aim is to support underrated artists in NFT community.</span>
               </p>
-              <img src="/images/Roadmap.jpg"/>  
+              <img src="/images/roadmap.jpg"/>  
               <p className="text-xl text-black my-6  montserrat"><span className="font-bold underline"> TO BE CONTINUED</span> ...........
               </p>
 
