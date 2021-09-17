@@ -42,8 +42,7 @@ export default function Home() {
                     <p className="text-2xl text-black my-6  montserrat">
                     <strong>LAUNCH DATE:</strong> --- <br />‍
                     <span className="text-black text-2xl montserrat"><strong>TOTAL SUPPLY: 9999</strong> unique queens.<br/><strong>PRICE: 0.036 ETH </strong>each.</span></p>
-                    <iframe src="https://free.timeanddate.com/countdown/i7vcex5b/n107/cf11/cm0/cu4/ct0/cs1/ca2/co0/cr0/ss0/cacfff/cpcfff/pct/tcfff/fn3/fs100/szw448/szh189/iso2021-10-29T21:00:00" allowtransparency="true" frameBorder="0" width="425" height="25"></iframe>
-
+                   
                   </div>
                   
             </div>
@@ -60,7 +59,7 @@ export default function Home() {
     
 
                 <div id="traits" className="flex flex-wrap justify-around items-center  mx-6 py-6">
-                  <div className="border-4 border-blue-300 p-4"><img src="images/Traits4.gif" alt="" width="400px" className="feature-image"/></div>
+                  
                   <div className="flex flex-col justify-between mx-6 sm:w-1/2 w-4/5 py-6 ">
                     <h2 className="text-blau Poppitandfinchsans text-6xl text-center">The Sea Queens</h2>
                     <p className="text-xl text-black my-6  montserrat">The Queens are so attractive and fascinating. Although they are very hard to claim <span className="font-bold"> but Sea Queens </span>  have all the traits you need and you can get them easily through our website, each  <span className="font-bold"> QUEEN IS UNIQUE </span> and have a different set of  <span className="font-bold"> Traits. </span>    
