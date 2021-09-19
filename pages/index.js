@@ -28,6 +28,7 @@ export default function Home() {
           </div>
           
         </div>
+        <h1 className="text-7xl Poppitandfinchsans text- black">NAMASTE EVERYONE, meet <br/><span className="text-blau">The Sea Queens</span></h1>
         <img className="lg:w-3/2 w-1/4 border-8 border-black " src="images/queen1.GIF" width="500px" />
         <div className="md:w-2/3 w-4/5 " id="about">
        
@@ -36,11 +37,11 @@ export default function Home() {
             <div className="flex flex-wrap lg:flex-nowrap justify-around items-center">
                   <div className="lg:w-3/4 w-3/4">
                 
-                    <h1 className="text-7xl Poppitandfinchsans text- black">NAMASTE EVERYONE, meet <br/><span className="text-blau">The Sea Queens</span></h1>
-                    <p className="text-2xl text-black my-6  montserrat">Let us introduce you to <span className="text-5xl Poppitandfinch ">SEA</span> <span className="text-blau text-5xl Poppitandfinchsans">Queens</span> 9999, The Queens of <span className="text-span-2 font-bold">OPEN SEA rulling the ocean of crypto.</span><br />‍<br />The Queens have been generated from the countless number of traits and carrying <br/>‍<span className="text-blau text-5xl Poppitandfinchsans">LIMITLESS </span><span className="text-5xl Poppitandfinch ">POTENTIAL</span><span className="text-blau text-5xl Poppitandfinchsans"> on their crowns</span>.
+                    
+                    <p className="text-2xl text-black my-6  montserrat">A collection of <span className="text-5xl Poppitandfinch "></span> <span className="text-blau text-5xl Poppitandfinchsans">9999 Mermaids</span> coming to rule <span className="text-span-2 font-bold"> the NFT ocean and your hearts.</span><br />‍<br />
                     </p>
                     <p className="text-2xl text-black my-6  montserrat">
-                    <strong>LAUNCH DATE:</strong> --- <br />‍
+                    <strong>LAUNCH DATE:</strong> TBA <br />‍
                     <span className="text-black text-2xl montserrat"><strong>TOTAL SUPPLY: 9999</strong> unique queens.<br/><strong>PRICE: 0.036 ETH </strong>each.</span></p>
                    
                   </div>
@@ -48,7 +49,7 @@ export default function Home() {
             </div>
             <div className="flex flex-col items-center">
 
-            <a href="/mint" className="mt-4 Poppitandfinchsans text-4xl border-6 bg-blau  text-black hover:text-black p-2 ">GO TO MINTING PAGE!</a>
+            <a href="/mint" className="mt-4 Poppitandfinchsans text-4xl border-6 bg-blau  text-black hover:text-black p-2 ">COMING SOON</a>
                 
                 
             </div> 
@@ -61,10 +62,14 @@ export default function Home() {
                 <div id="traits" className="flex flex-wrap justify-around items-center  mx-6 py-6">
                   
                   <div className="flex flex-col justify-between mx-6 sm:w-1/2 w-4/5 py-6 ">
-                    <h2 className="text-blau Poppitandfinchsans text-6xl text-center">The Sea Queens</h2>
-                    <p className="text-xl text-black my-6  montserrat">The Queens are so attractive and fascinating. Although they are very hard to claim <span className="font-bold"> but Sea Queens </span>  have all the traits you need and you can get them easily through our website, each  <span className="font-bold"> QUEEN IS UNIQUE </span> and have a different set of  <span className="font-bold"> Traits. </span>    
+                    <h2 className="text-blau Poppitandfinchsans text-6xl text-center">ABOUT The Sea Queens</h2>
+                    <p className="text-xl text-black my-6  montserrat">The Sea Queens are generated from a combination of countless number of traits and each of them is carrying  <span className="font-bold"> LIMITLESS POTENTIAL </span> on their crowns.<span className="font-bold">  </span>   <span className="font-bold"> </span>    
                     </p>
-                    <p className="text-xl text-black my-6  montserrat"> These varieties include different expressions of<span className="font-bold"> 500+ Hairstyles, various types of accessories, </span> skin colours, <span className="font-bold"> 50+ Fins</span> and many more.
+                    <p className="text-xl text-black my-6  montserrat"> They’re inspired by the real queens of our world i.e. women.<br />‍Mermaids are regarded as Queens of the Sea signifying life and fertility within the ocean. Similarly, women are the queens of the earthly world without whom the genesis of life would cease to exist. However, marginalization and gender discrimination is an adversity that has plagued women from the dawn of time, especially in developing countries like India, where women have been oppressed by systematic sexism.
+                    
+                    </p>
+                    <p className="text-xl text-black my-6  montserrat">The Sea Queens is a collectible project aimed to empower women, by creating awareness and helping organizations in India, by upholding their rights and pushing them to break barriers that are set by society.
+                    <br />The Sea Queens aims to support Indian women artists as well as other artists in the NFT space by jump-starting their career, through Gas fees compensations, by bringing exposure to their work through a wider community of collectors, and also occasionally buying and collecting their art pieces as part of the community wallet. Hence bringing value to entire community of The Sea Queens.
                     </p>
                   </div>
                 </div>
@@ -73,10 +78,10 @@ export default function Home() {
               <div id="roadmap" className="">
                     
               <h2 className="text-6xl text-center Poppitandfinchsans text-blau my-4">ROADMAP</h2>
-              <p className="text-3xl text-black my-6  montserrat"><span className="font-bold"> Our main aim is to support artists in NFT community.</span>
+              <p className="text-3xl text-black my-6  montserrat"><span className="font-bold"></span>
               </p>
-              <img src="/images/roadmap.jpg"/>  
-              <p className="text-xl text-black my-6  montserrat"><span className="font-bold underline"> TO BE CONTINUED</span> ...........
+              <img src="/images/roadmap.PNG"/>  
+              <p className="text-xl text-black my-6  montserrat"><span className="font-bold underline"> </span>
               </p>
 
 
@@ -119,7 +124,7 @@ export default function Home() {
                     <div className="cards-image-mask"><img src="/images/mohak.jpg" width="360px" alt="" className="cards-image" /></div>
                     <h3 className="my-4 text-center text-5xl text-center Poppitandfinchsans text-blau">Mohak</h3>
                     <a href="https://twitter.com/MohakBardwa2" className="text-center text-4xl text-center Poppitandfinchsans underline text-black"> (@MohakBardwa2)</a>                
-                    <h4 className="text-xl text-black my-6  montserrat"><span className="font-bold">Discord Mod/Community</span></h4>
+                    <h4 className="text-xl text-black my-6  montserrat"><span className="font-bold">Community Manager</span></h4>
                     <li className="text-xl text-black my-6  montserrat">Managing 100k discord servers </li>
                      <li className="text-xl text-black my-6  montserrat">Engineering student of Artificial Intelligence. </li>
                     
@@ -131,7 +136,19 @@ export default function Home() {
 
               </div>   
               <div id="contact" className=" ">
-                  
+              <footer class="text-gray-600 body-font">
+  <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+    <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+    <a href="/" className=""><img src="images/logo.png" width="108" alt="" className="logo-image" /></a>
+        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+      
+      <span class="ml-3 text-xl">The Seaqueens</span>
+    </a>
+    <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2021 The Seaqueens —
+      <a href="https://twitter.com/Seaqueensnft" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">@Seaqueensnft</a>
+    </p>
+  </div>
+</footer>   
        
 
 
