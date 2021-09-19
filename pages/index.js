@@ -80,7 +80,7 @@ export default function Home() {
               <h2 className="text-6xl text-center Poppitandfinchsans text-blau my-4">ROADMAP</h2>
               <p className="text-3xl text-black my-6  montserrat"><span className="font-bold"></span>
               </p>
-              <img src="/images/roadmap.PNG"/>  
+              <img src="/images/roadmap.png"/>  
               <p className="text-xl text-black my-6  montserrat"><span className="font-bold underline"> </span>
               </p>
 
