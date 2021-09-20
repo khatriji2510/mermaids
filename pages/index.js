@@ -134,7 +134,19 @@ export default function Home() {
        
 
 
-              </div>   
+              </div> 
+              <div  className="">
+                    
+              <h2 className="text-6xl text-center Poppitandfinchsans text-blau my-4">FAQs</h2>
+              <p className="text-3xl text-black my-6  montserrat"><span className="font-bold"></span>
+              </p>
+              <img src="/images/FAQ.png"/>  
+              <p className="text-xl text-black my-6  montserrat"><span className="font-bold underline"> </span>
+              </p>
+
+              </div>
+
+
               <div id="contact" className=" ">
               <footer class="text-gray-600 body-font">
   <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
