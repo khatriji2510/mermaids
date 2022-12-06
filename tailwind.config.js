@@ -8,7 +8,7 @@ module.exports = {
   variants: {
     extend: {
       backgroundImage: theme => ({
-        'banana': "url('/images/BG2.jpg')",
+        'mermaid': "url('/images/BG2.jpg')",
        })
 
     },
